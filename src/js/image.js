@@ -25,7 +25,7 @@ const Image = () => {
       {data.map(data => {
         return (
           <div>
-            <img key={data.id} className="grid-item" src={data.url} alt="a" />
+            <img key={data.id} className="grid-item" src={data.url} alt="a" width={data.width} height={data.heignt}/>
           </div>
         )
       })
